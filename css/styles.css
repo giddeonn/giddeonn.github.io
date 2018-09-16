@@ -44,15 +44,6 @@ a:hover {
     padding: 50px;
     overflow: auto;
 }
-.col-narrow {
-    width: 20%;
-    float: left;
-}
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 50px
-}
 
 
 /* Header and Footer
@@ -109,6 +100,35 @@ footer {
 .personal-data {
     background: #8D99AE;
 }
+
+
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 20%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
+
+
+
+
+
 
 
 
