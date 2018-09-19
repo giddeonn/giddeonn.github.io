@@ -56,6 +56,7 @@ header, footer {
 /* header */
 .profile-img {
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 header h1, header h2 {
@@ -84,7 +85,7 @@ nav {
 }
 nav a {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 5px 9px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
