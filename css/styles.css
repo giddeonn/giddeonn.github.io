@@ -131,7 +131,7 @@ p + h3 {
 -------------------------*/
 @media (min-width: 900px) {
   .col-narrow {
-    width: 40%;
+    width: 20%;
     float: left;
   }
   .col-wide {
